@@ -31,7 +31,10 @@ struct Theme {
     
 //    var color: Colors // Typiclly
     struct Colors {
-        static var rade3Blue = UIColor(red: 32, green: 139, blue: 210, alpha: 1)
-        static var rade3Green = UIColor(red: 89, green: 182, blue: 32, alpha: 1)
+        static var rade3Blue = #colorLiteral(red: 0.1254901961, green: 0.5450980392, blue: 0.8235294118, alpha: 1)
+        static var rade3Green = #colorLiteral(red: 0.3490196078, green: 0.7137254902, blue: 0.1254901961, alpha: 1)
+        static var fieldBG = #colorLiteral(red: 0.9215686275, green: 0.8941176471, blue: 0.8470588235, alpha: 1)
+        static var placeHolder = #colorLiteral(red: 0.6941176471, green: 0.6745098039, blue: 0.6666666667, alpha: 1)
+        
     }
 }

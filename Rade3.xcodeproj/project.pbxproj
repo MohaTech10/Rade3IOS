@@ -15,6 +15,15 @@
 		91433F6425E00565004FE617 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91433F6325E00565004FE617 /* UIViewExtension.swift */; };
 		91433F6725E007F4004FE617 /* NextSubButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91433F6625E007F4004FE617 /* NextSubButton.swift */; };
 		91433F6A25E008EB004FE617 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91433F6925E008EA004FE617 /* Theme.swift */; };
+		91433F7425E01955004FE617 /* HeaderContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91433F7325E01955004FE617 /* HeaderContainer.swift */; };
+		91433F7725E019BA004FE617 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91433F7625E019BA004FE617 /* ViewControllerExtension.swift */; };
+		91433F7A25E01CC9004FE617 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91433F7925E01CC9004FE617 /* BaseVC.swift */; };
+		91433F7D25E01DC1004FE617 /* FormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91433F7C25E01DC1004FE617 /* FormVC.swift */; };
+		91433F8025E02036004FE617 /* MakerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91433F7F25E02036004FE617 /* MakerUtils.swift */; };
+		91433F8A25E03BE9004FE617 /* LastFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91433F8925E03BE8004FE617 /* LastFormVC.swift */; };
+		91433FA025E051E3004FE617 /* SuperMario256.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91433F9F25E051E3004FE617 /* SuperMario256.ttf */; };
+		91433FA425E052DC004FE617 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91433FA325E052DC004FE617 /* Font.swift */; };
+		91433FAC25E072C5004FE617 /* WhatsApp Audio 2021-02-20 at 12.35.57 AM.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 91433FAB25E072C5004FE617 /* WhatsApp Audio 2021-02-20 at 12.35.57 AM.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +37,16 @@
 		91433F6325E00565004FE617 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		91433F6625E007F4004FE617 /* NextSubButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextSubButton.swift; sourceTree = "<group>"; };
 		91433F6925E008EA004FE617 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		91433F7325E01955004FE617 /* HeaderContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderContainer.swift; sourceTree = "<group>"; };
+		91433F7625E019BA004FE617 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		91433F7925E01CC9004FE617 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		91433F7C25E01DC1004FE617 /* FormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormVC.swift; sourceTree = "<group>"; };
+		91433F7F25E02036004FE617 /* MakerUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakerUtils.swift; sourceTree = "<group>"; };
+		91433F8225E029A2004FE617 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		91433F8925E03BE8004FE617 /* LastFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastFormVC.swift; sourceTree = "<group>"; };
+		91433F9F25E051E3004FE617 /* SuperMario256.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SuperMario256.ttf; sourceTree = "<group>"; };
+		91433FA325E052DC004FE617 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		91433FAB25E072C5004FE617 /* WhatsApp Audio 2021-02-20 at 12.35.57 AM.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WhatsApp Audio 2021-02-20 at 12.35.57 AM.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +79,8 @@
 		91433F3625DFFC5F004FE617 /* Rade3 */ = {
 			isa = PBXGroup;
 			children = (
+				91433FAB25E072C5004FE617 /* WhatsApp Audio 2021-02-20 at 12.35.57 AM.mp4 */,
+				91433F9E25E05187004FE617 /* Fonts */,
 				91433F7125E011A7004FE617 /* Services */,
 				91433F7025E011A4004FE617 /* Views */,
 				91433F6D25E0117C004FE617 /* Util */,
@@ -77,6 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				91433F4D25E00475004FE617 /* HomeVC.swift */,
+				91433F7C25E01DC1004FE617 /* FormVC.swift */,
+				91433F8925E03BE8004FE617 /* LastFormVC.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -84,9 +107,11 @@
 		91433F6D25E0117C004FE617 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				91433FA225E052CE004FE617 /* Constants */,
 				91433F6F25E01193004FE617 /* Interfaces */,
 				91433F6E25E01188004FE617 /* Extension */,
 				91433F6925E008EA004FE617 /* Theme.swift */,
+				91433F7F25E02036004FE617 /* MakerUtils.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -95,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				91433F6325E00565004FE617 /* UIViewExtension.swift */,
+				91433F7625E019BA004FE617 /* ViewControllerExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -102,6 +128,7 @@
 		91433F6F25E01193004FE617 /* Interfaces */ = {
 			isa = PBXGroup;
 			children = (
+				91433F7925E01CC9004FE617 /* BaseVC.swift */,
 			);
 			path = Interfaces;
 			sourceTree = "<group>";
@@ -110,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				91433F6625E007F4004FE617 /* NextSubButton.swift */,
+				91433F7325E01955004FE617 /* HeaderContainer.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -119,6 +147,22 @@
 			children = (
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		91433F9E25E05187004FE617 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				91433F9F25E051E3004FE617 /* SuperMario256.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		91433FA225E052CE004FE617 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				91433FA325E052DC004FE617 /* Font.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +206,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 91433F2B25DFFC5F004FE617;
 			productRefGroup = 91433F3525DFFC5F004FE617 /* Products */;
@@ -179,6 +224,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				91433F4425DFFC64004FE617 /* LaunchScreen.storyboard in Resources */,
+				91433FA025E051E3004FE617 /* SuperMario256.ttf in Resources */,
+				91433FAC25E072C5004FE617 /* WhatsApp Audio 2021-02-20 at 12.35.57 AM.mp4 in Resources */,
 				91433F4125DFFC64004FE617 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,12 +237,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91433F8A25E03BE9004FE617 /* LastFormVC.swift in Sources */,
+				91433F7D25E01DC1004FE617 /* FormVC.swift in Sources */,
 				91433F4E25E00475004FE617 /* HomeVC.swift in Sources */,
 				91433F3825DFFC5F004FE617 /* AppDelegate.swift in Sources */,
 				91433F6425E00565004FE617 /* UIViewExtension.swift in Sources */,
 				91433F6A25E008EB004FE617 /* Theme.swift in Sources */,
+				91433F7A25E01CC9004FE617 /* BaseVC.swift in Sources */,
+				91433FA425E052DC004FE617 /* Font.swift in Sources */,
+				91433F7725E019BA004FE617 /* ViewControllerExtension.swift in Sources */,
 				91433F3A25DFFC5F004FE617 /* SceneDelegate.swift in Sources */,
+				91433F7425E01955004FE617 /* HeaderContainer.swift in Sources */,
 				91433F6725E007F4004FE617 /* NextSubButton.swift in Sources */,
+				91433F8025E02036004FE617 /* MakerUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +260,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				91433F4325DFFC64004FE617 /* Base */,
+				91433F8225E029A2004FE617 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -217,6 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -278,6 +334,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
